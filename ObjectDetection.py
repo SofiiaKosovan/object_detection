@@ -1,9 +1,9 @@
 import cv2
 from ultralytics import YOLO
 
-yolo = YOLO('yolov8n.pt')
+yolo = YOLO('yolov8s.pt')
 
-video_path = '/Users/skosovan/Documents/_video/video11.mp4'
+video_path = '/Users/skosovan/Documents/_video/video_17s.mp4'
 videoCap = cv2.VideoCapture(video_path)
 
 
